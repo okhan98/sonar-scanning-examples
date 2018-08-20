@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+
+    environment {
+            AWS_ECR_LOGIN='true'
+    }
+    stages {
+        stage ('checkout') {
+            steps {
+                echo 'Checking out code from git repo'
+                checkout scm
+            }
+        }
+
+        stage ('clean') {
+            steps {
+                sh "./gradlew clean"
+            }
+        }
+
+        stage ('compile') {
+            steps {
+                sh "./gradlew compileJava"
+            }
+        }
+
+        stage ('Build') {
+            steps {
+                sh "./gradlew build -x test -i"
+            }
+        }
+        
+        stage ('test') {
+            steps {
+                sh "./gradlew test"
+            }
+        }
+        }
+    }
