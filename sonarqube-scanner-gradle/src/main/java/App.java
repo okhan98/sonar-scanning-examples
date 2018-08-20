@@ -9,6 +9,22 @@ public class App {
     public String getGreeting() {
         return HELLO;
     }
+    
+    public int test1(){
+	   
+        int t = 1;
+    }
+
+    public void test2(){
+        System.out.println("Hello");
+        System.out.println("Hello");
+    }
+
+    public void test3(){
+        System.out.println("Hello");
+        System.out.println("Hello");
+    }
+
 
     public static void main(String[] args) 
     {
