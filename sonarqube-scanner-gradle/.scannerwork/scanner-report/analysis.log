@@ -1,0 +1,109 @@
+Environment variables:
+  - Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.LoOk0v6se4/Render
+  - HOME=/Users/omairkhan
+  - JAVA_ARCH=x86_64
+  - JAVA_MAIN_CLASS_23170=org.sonarsource.scanner.cli.Main
+  - LANG=en_US.UTF-8
+  - LOGNAME=omairkhan
+  - PATH=/Users/omairkhan/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  - PWD=/Users/omairkhan/desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle
+  - RBENV_SHELL=bash
+  - SECURITYSESSIONID=186ca
+  - SHELL=/bin/bash
+  - SHLVL=1
+  - SONAR_SCANNER_HOME=/usr/local/Cellar/sonar-scanner/3.2.0.1227/libexec
+  - SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.M5etgrhUPS/Listeners
+  - TERM=xterm-256color
+  - TERM_PROGRAM=Apple_Terminal
+  - TERM_PROGRAM_VERSION=404
+  - TERM_SESSION_ID=B42DDA2D-CEC1-41C1-B2E6-8C9EDEF45396
+  - TMPDIR=/var/folders/8b/_fqv0prn5b7gsx96ht4my85m0000gq/T/
+  - USER=omairkhan
+  - XPC_FLAGS=0x0
+  - XPC_SERVICE_NAME=0
+  - __CF_USER_TEXT_ENCODING=0x1F7:0x0:0x0
+  - com.apple.java.jvmTask=CommandLine
+System properties:
+  - awt.toolkit=sun.lwawt.macosx.LWCToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - gopherProxySet=false
+  - java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+  - java.class.path=/usr/local/Cellar/sonar-scanner/3.2.0.1227/libexec/lib/sonar-scanner-cli-3.2.0.1227.jar
+  - java.class.version=54.0
+  - java.home=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
+  - java.io.tmpdir=/var/folders/8b/_fqv0prn5b7gsx96ht4my85m0000gq/T/
+  - java.library.path=/Users/omairkhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=10.0.2+13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=10
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.java.com/bugreport/
+  - java.vendor.version=18.3
+  - java.version=10.0.2
+  - java.version.date=2018-07-17
+  - java.vm.compressedOopsMode=Zero based
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=10
+  - java.vm.vendor="Oracle Corporation"
+  - java.vm.version=10.0.2+13
+  - jdk.debug=release
+  - line.separator=
+
+  - os.arch=x86_64
+  - os.name=Mac OS X
+  - os.version=10.13.6
+  - path.separator=:
+  - project.home=/Users/omairkhan/desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle
+  - scanner.home=/usr/local/Cellar/sonar-scanner/3.2.0.1227/libexec
+  - sun.arch.data.model=64
+  - sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.io.unicode.encoding=UnicodeBig
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.projectKey=sonarqube-scanner-gradle -Dsonar.sources=build -Dsonar.verbose=true
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.country=US
+  - user.dir=/Users/omairkhan/Desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle
+  - user.home=/Users/omairkhan
+  - user.language=en
+  - user.name=omairkhan
+  - user.timezone=America/Los_Angeles
+SonarQube plugins:
+  - GitHub 1.4.2.1027 (github)
+  - SonarPython 1.9.1.2080 (python)
+  - Clover 3.1 (clover)
+  - Svn 1.7.0.1017 (scmsvn)
+  - SonarJS 4.1.0.6085 (javascript)
+  - SonarC# 7.0.1.4822 (csharp)
+  - SonarJava 5.2.0.13398 (java)
+  - Git 1.4.0.1037 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.0.1373 (xml)
+  - SonarPHP 2.13.0.3107 (php)
+  - SonarTS 1.6.0.2388 (typescript)
+Global properties:
+  - sonar.core.id=AWU5qc00tZUDFYWC4q6B
+  - sonar.core.startTime=2018-08-14T23:42:30+0000
+Settings for module: sonarqube-scanner-gradle
+  - sonar.host.url=http://localhost:9000
+  - sonar.projectBaseDir=/Users/omairkhan/desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle
+  - sonar.projectKey=sonarqube-scanner-gradle
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.2.0.1227
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=build
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/omairkhan/desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle/.scannerwork

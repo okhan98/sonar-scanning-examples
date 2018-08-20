@@ -1,0 +1,1 @@
+(build/test-results/test/TEST-AppTest.xml 2xmlXhr(build/test-results/test/TEST-AppTest.xml

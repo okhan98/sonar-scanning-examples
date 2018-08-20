@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/omairkhan/Desktop/source_code/sonar-scanning-examples/sonarqube-scanner-gradle/src/.metadata/.plugins/org.eclipse.jdt.core
